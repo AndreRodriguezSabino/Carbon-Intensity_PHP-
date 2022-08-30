@@ -1,0 +1,27 @@
+{
+    "name": "andre/php-carbon-intensity",
+    "description": "PHP library for carbonintensity.org.uk - https://carbon-intensity.github.io/api-definitions/",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "php": ">=8.1.2"
+    },
+    "autoload": {
+        "psr-7": {
+            "Andre\\CarbonIntensity\\": [
+                "src/"
+            ]
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9",
+        "theseer/autoload": "^1"
+    },
+    "license": "",
+    "authors": [
+        {
+            "name": "Andre Rodriguez",
+            "email": "andresabinocalvo@gmail.com"
+        }
+    ]
+}
